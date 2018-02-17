@@ -1,0 +1,16 @@
+[package]
+name = "knipd"
+version = "0.1.0"
+authors = ["jodusnodus"]
+
+[dependencies]
+chrono = "0.4"
+clap = "2.30.0"
+
+[[bin]]
+name = "knipd"
+path = "src/daemon.rs"
+
+[[bin]]
+name = "knip"
+path = "src/client.rs"
